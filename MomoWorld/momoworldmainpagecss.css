@@ -1,0 +1,410 @@
+figcaption{
+    margin: 10px;
+    font-family: monospace;
+    position: relative;
+    left: 14%;
+    font-size: 2.5em;
+    
+    color:orangered;
+}
+
+#mainlogo{
+margin-right: 0px;
+    margin: 10px;
+    position: relative;
+    left: 1%;
+    
+    
+}
+#rightlogo{
+    float: right;
+    margin-right: 15px;
+    margin-top:10px;
+    margin-left: 0px;
+    
+}
+#navbar1{
+    color: #f82e2e;
+    font-family: cursive;
+    
+}
+.navbar>nav a:hover{
+    color: rgb(173, 221, 1);
+}
+
+body{
+    background-color: lightgreen;
+}
+
+.display-3{
+    position: relative;
+    left: 0%;
+    font-family: cursive;
+    font-size: 2em;
+    background-color: #ff1e00de;
+    width: 42%;
+    padding: 2px;
+    padding-left: 6px;
+    margin: 5px;
+}
+.lead{
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ff1e00de;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+#jumbotronvideo{
+    height: 130%;
+    width: 100%;
+    background-color: burlywood;
+}
+
+#videoheading{
+    text-align: center;
+    margin: 5px;
+    border:darkslategray dotted 3px ;
+    color: #ff1e00de;
+    width: 35%;
+    position: relative;
+    left: 30%;
+    font-family: cursive;
+    background-color: rgb(1, 19, 19);
+    font-size: 3em;
+}
+#videosection{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+#line{
+    color: #ff1e00de;
+    size: 1em;
+}
+
+/*aboutus*/
+#jumbotronaboutus{
+    height: 130%;
+    background-color: lightslategray;
+}
+#panel1{
+    margin: 30px;
+    position: relative;
+    left: 6%;
+    width: 80%;
+    height: 80%;
+    background-color:rgb(1, 19, 19);
+    z-index:1;
+    overflow:auto;
+}
+
+#headingaboutus{
+    text-align: center;
+    font-family: cursive;
+    font-weight: 700;
+    color: #ff1e00de;
+    text-decoration: underline ;
+    text-decoration-style: solid;
+    
+}
+.aboutussubheadings{
+    text-align: center;
+    font-family: cursive;
+    font-weight:600;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    color: #ff1e00de;
+    font-size: 1.5em;
+    
+}
+
+.sidenav {
+    width: 225px;
+    position: absolute;
+    z-index: 0;
+    top: 20px;
+    left: 10px;
+    background:lightslategray;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f82e2e;
+    display: block;
+}
+
+.sidenav a:hover {
+    color:rgb(1, 19, 19);
+}
+
+.main {
+    margin-left: 220px; /* Same width as the sidebar + left position in px */
+    font-size: 25px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    color: peru;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+#jumbotronmenu{
+    background-color: rgb(173, 221, 1);
+    height: 350%;
+}
+#menu{
+    position: relative;
+    left:0%;
+    text-align: center;
+    color: #ff1e00de;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    font-family: cursive;
+    background-color: rgb(1, 19, 19);
+}
+#momooftheday{
+    margin-top: 70px;
+    border: none;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    font-family: fantasy;
+    font-weight: bold;
+    color: crimson;
+    background-color: none;
+    font-size: 5em;
+    text-align: center;
+}
+
+#maggimomosimage{
+    position: relative;
+    left:5%;
+}
+
+#buttonmaggimomos{
+    position: relative;
+    left: 42%;
+    margin: 4px;
+    padding: 2px;
+    color: yellow;
+    background-color: rgb(1, 19, 19);
+}
+
+#maggimomosdesc{
+    text-align: center;
+    font-size: 1.8em;
+    font-style: italic;
+    color: rgb(1, 19, 19);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col-sm-4{
+    height: 450px;
+    background-color:yellow; 
+    width: 32%;
+}
+#menu1{
+    text-align: center;
+    padding: 5px;
+    margin: 7px;
+    margin-top: 20px;
+    border: rgb(1, 19, 19) solid ;
+    position: relative;
+    left: 0%;
+}
+#menu2{
+    text-align: center;
+    padding: 5px;
+    margin: 7px;
+    margin-top: 20px;
+    border: rgb(1, 19, 19) solid ;
+    position: relative;
+    left: 0%;
+}
+#menu3{
+    text-align: center;
+    padding: 5px;
+    margin: 7px;
+    margin-top: 20px;
+    border: rgb(1, 19, 19) solid ;
+    position: relative;
+    left: 0%;
+}
+#menu4{
+    text-align: center;
+    padding: 5px;
+    margin: 7px;
+    margin-top: 20px;
+    border: rgb(1, 19, 19) solid ;
+    position: relative;
+    left: 0%;
+}
+#menu5{
+    text-align: center;
+    padding: 5px;
+    margin: 7px;
+    margin-top: 20px;
+    border: rgb(1, 19, 19) solid ;
+    position: relative;
+    left: 0%;
+}
+#menu6{
+    text-align: center;
+    padding: 5px;
+    margin: 7px;
+    margin-top: 20px;
+    border: rgb(1, 19, 19) solid ;
+    position: relative;
+    left: 0%;
+}
+#menuitemheading{
+    color: red;
+    
+    font-size: 2em;
+    text-align: center;
+    font-family: cursive;
+}
+#menuitempara{
+    font-style:italic; 
+    color:yellowgreen; 
+    text-align:left; 
+    font-size:30px;
+    font-family: monospace;
+}
+#menulastline{
+    color:crimson;
+    font-family: monospace;
+    font-size: 4.5em;
+}
+#jumbotroncontactus{
+    background-color: orange;
+    height: 140%;
+}
+#contactus{
+    text-align: center;
+    font-size: 5em;
+    font-family: cursive;
+    color: #ff1e00de;
+    background-color: rgb(1, 19, 19);
+    position: relative;
+    left: 0%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-decoration: underline solid;
+}
+
+/*contact us form*/
+
+input[type=text], select, textarea {
+    width: 98%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 16px; 
+    margin-bottom: 16px; 
+    resize: vertical ;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+} 
+
+/*customer reviews*/
+#jumbotroncustomerreviews{
+    height: 120%;
+    background-color: darkkhaki;
+}
+
+#headingcustomerreviews{
+    text-align: center;
+    font-size: 5em;
+    font-family: cursive;
+    color: #ff1e00de;
+    background-color: rgb(1, 19, 19);
+    position: relative;
+    left: 0%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-decoration: underline solid;
+}
+
+#paracustomerreviews{
+    text-align: center;
+    font-size: 1.8em;
+    font-style: italic;
+    color: rgb(1, 19, 19);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#jumbotronfooter{
+    border: rgb(1, 19, 19) solid;
+    height: 300px;
+    background-color: white;
+}
+#footersection{
+    width: 85%;
+    margin: 10px;
+    height: 50px;
+    padding: 10px;
+    position: relative;
+    top: 32px;
+}
+#connect{
+    font-family: cursive;
+    font-size: 3em;
+    color:crimson;
+}
+#logofooter{
+    float: left;
+    bottom: 60px;
+   
+}
+#footerpanel{
+    font-family: monospace;
+    font-size: 3em;
+    font-style: italic;
+    color: lightgreen;
+    width: 50%;
+    position: relative;
+    left: 28%;
+}
+.gototop{
+    position: relative;
+    margin-top: 50%;
+    margin-right: 0;
+    float: right;
+    color: black;
+    font-family: cursive;
+}
